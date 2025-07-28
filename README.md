@@ -1,7 +1,7 @@
-Digitial CLock:
-     I have created a website which shows Time and Date in 12 hour format HH:MM:SS AM/PM ,and which is made up of HTML,CSS,JavaScript,
-     For the structure of website ,i have used HTML tag like <h1> to showcase the time letter and for the design and styles i have use css and
-     for get the time ,i have define a user defined function in JavaScript  in which  i have get the current time and date by Date() and 
-     convert into 12 hour format and padding them and merge all the separate  element of the Date() into a format HH:MM:SS AM/PM and
-     modify the element in html tag by their ID and calls the function every second by Setinterval().
-     I have extra added the Date display along with the time .
+I have created a website which conduct a quiz of subject HTML for user ,the basic structure is defined by html
+and the design of website styled by CSS and the function are defined by JavaScript.
+There are two sectors in this websites one is questions and other is result page ,there are three functions
+loadquiz(),chechanswer(),endquiz(),loadquiz function load the question with options from the question array
+and after the answer is selected the checkanswer function check the selected answer with correct answer given
+in array using if statement if correct added one to the score .after all the questions are shown.
+After all question are shown the endquiz is called and result page is loaded and the score are displayed.
